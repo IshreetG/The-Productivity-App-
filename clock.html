@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Ishreet's Clock</title> <!-- name of the webiste  -->
+    <div id = "intro"> Ishreet's Study Clock</div> <!--for the title  -->
+    <link href="clock.css" rel="stylesheet"> <!--linking css and javascipt code-->
+    <script src="PomodoroTimerComponent.js" defer></script>
+  </head>
+
+<body>
+    <div id="container">
+      <div id="timer">
+        <div id="time">
+          <span id="minutes">25</span> <!--when nothing is pressed we will display 25:00-->
+          <span id="colon">:</span>
+          <span id="seconds">00</span>
+        </div>
+      </div>
+      <div id="buttons">
+        <button id="work">Work</button>
+        <button id="Break">Break</button>
+      </div>
+  </div>
+  
+  <div id = "todo">
+    <h2>My To Do List</h2>
+    <input type="text" id="myInput" placeholder="Title...">
+    <span onclick="newElement()" class="addBtn">Add</span> <!-- here we are calling on the newElement function-->
+    <ul id="myUL">
+    </ul>
+</div>
+</body>
+
+  </html>
